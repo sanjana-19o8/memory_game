@@ -1,0 +1,83 @@
+body {
+    background: linear-gradient(to left, rgb(224, 87, 56), rgb(215, 54, 113)) no-repeat;
+    justify-content: center;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+    font-family: monospace;
+    font-size: 50px;
+    margin: 5%;
+}
+
+footer {
+    text-indent: 5%;
+    margin: 2%;
+}
+
+.row{
+    text-align: center;
+    grid-area: auto;
+}
+
+.card
+{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.card:hover {
+    border: 20px;
+    box-shadow: inset 0 0 0 2px rgb(121, 94, 94);
+    box-sizing: border-box;
+}
+
+.bulbasaur {
+    background: url('./assets/bulbasaur.jpg');
+    background-size: contain;
+}
+.snorlax {
+    background: url('./assets/snorlax.jpg');
+    background-size: contain;
+}
+.pikachu {
+    background: url('./assets/pikachu.jpg');
+    background-size: contain;
+}
+.eevee {
+    background: url('./assets/eevee.jpg');
+    background-size: contain;
+}
+.psyduck {
+    background: url('./assets/psyduck.jpg');
+    background-size: contain;
+}
+.ditto {
+    background: url('./assets/ditto.jpg');
+    background-size: contain;
+}
+.jigglypuff {
+    background: url('./assets/jigglypuff.jpg');
+    background-size: contain;
+}
+.chikorita {
+    background: url('./assets/chikorita.jpg');
+    background-size: contain;
+}
+
+.hidden {
+    background-color: #eee;
+    background: url('./assets/cover.png');
+}
+
+#finish {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 50px;
+    margin-top: -50px;
+    font-size: 50px;
+    color: #eee;
+}
