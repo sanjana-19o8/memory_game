@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to left, rgb(224, 87, 56), rgb(215, 54, 113)) no-repeat;
+    background: linear-gradient(to left, rgb(224, 87, 56), rgb(215, 54, 113));
     justify-content: center;
     margin: auto;
 }
