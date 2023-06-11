@@ -1,7 +1,21 @@
 body {
-    background: linear-gradient(to left, rgb(224, 87, 56), rgb(215, 54, 113)) no-repeat;
+    background: linear-gradient(90deg, rgb(224, 87, 56), rgb(215, 54, 113));
+    animation: bkgd 2.5s infinite easi-in-out;
     justify-content: center;
     margin: auto;
+    /* margin: auto; */
+}
+
+@keyframes bkgd{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
 }
 
 header {
